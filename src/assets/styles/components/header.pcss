@@ -1,0 +1,54 @@
+header {
+
+}
+
+.header__slider{
+  &-item{
+    height: 100vh;
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; /* при растяжении экрана, сохраняется один фон */
+    padding-left: 0px;
+    position: relative;
+
+  }
+}
+
+.slider-item__info {
+  &-title {
+    position: absolute;
+    left: 620px;
+    bottom: 450px;
+    color: #fff;
+    font-size: 250%;
+  }
+}
+
+.slider-item__info {
+  &-suptitle {
+    position: absolute;
+    left: 620px;
+    bottom: 420px;
+    color: grey;
+    font-size: 14pt;
+  }
+}
+
+.slider-item__info {
+  &-button {
+    position: absolute;
+    left: 750px;
+    bottom: 320px;
+    background-color: #bdb8d7;
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+  }
+}
