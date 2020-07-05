@@ -3,6 +3,7 @@ header {
 }
 
 .portfolio-item__info{ /* отвечает за все картинки */
+margin-top: 180px;
     display:flex;
   justify-content: center; 
   position: absolute;
@@ -19,4 +20,32 @@ header {
 
 .column__item{ /* отвечает за каждую картинку отдельно */
   margin: 15px;
+}
+
+.portfolio-item__info{ 
+    &-title{
+  position: absolute;
+    left: 250px;
+    top: -80px;
+    color: #fff;
+    font-size: 250%;
+}
+}
+
+@media (max-width: 700px) {
+  .portfolio-item__info {
+    display: block;
+    position: absolute;
+    left: 170px;   
+  }
+}
+
+@media (max-width: 700px) {
+  .portfolio-item__info {
+     &-title{
+    float: left;
+    position: absolute;
+    left: 170px;   
+  }
+}
 }

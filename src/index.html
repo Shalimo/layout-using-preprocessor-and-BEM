@@ -19,6 +19,9 @@
   <header class="portfolio" id="portfolio">
     <div class="header__portfolio-item portfolio-item">
       <div class="portfolio-item__info">
+        <div class="portfolio-item__info-title">
+          <h1>There will be a portfolio.</h1>
+        </div>
         <div class="portfolio-item__info-images">
           <div class="column__item">
             <img src="images/myphoto1.jpg" width="250" height="250" alt="">
@@ -44,9 +47,15 @@
     </div>
   </header>
 
-  <header class="contacts" id="contacts">
+  <header class="contacts">
     <div class="header__contacts-item contacts-item">
-      <div class="contacts-item__info">
+      <div class="contacts-item__info" id="contacts">
+        <div class="contacts-item__info-title">
+          <h1>Contacts</h1>
+        </div>
+        <div class="contacts-item__info-suptitle">
+          <h3>Here you can enter your contact details.</h3>
+        </div>
         <div class="contacts-item__info-inputs">
             <input type="text" class="name" id="name" placeholder="Name" required="">
         </div>
@@ -56,7 +65,11 @@
         </div>
 
         <div class="contacts-item__info-inputsrow">
-            <input type="text" class="message" id="name"  required="Message" /> 
+            <input type="text" class="message" id="name"  placeholder="Message" /> 
+        </div>
+
+        <div class="contacts-item__info-button">
+          <a href="#" class="button">Send message</a>
         </div>
         
       </div>
@@ -74,8 +87,8 @@
           <ul>
             <a href="#header"><li>Intro</li></a>
             <a href="#portfolio"><li>Portfolio</li></a>
-            <a href=""><li>About me</li></a>
-            <a href=""><li>Contacts</li></a>
+            <a href="#header"><li>About me</li></a>
+            <a href="#contacts"><li>Contacts</li></a>
           </ul>
         </div>
         <div class="logo-item__info-icons">

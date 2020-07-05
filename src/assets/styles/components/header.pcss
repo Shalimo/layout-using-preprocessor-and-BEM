@@ -3,16 +3,15 @@ header {
 
 }
 
+
+
 .header__slider{
   &-item{
     height: 100vh;
-    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; /* при растяжении экрана, сохраняется один фон */
     padding-left: 0px;
-    position: relative;
-
   }
 }
 
@@ -51,5 +50,21 @@ header {
     font-weight: bold;
     letter-spacing: 2px;
     color: white;
+  }
+}
+
+@media (max-width: 700px) {
+  .slider-item__info {
+    display: flex;
+    position: relative;
+  }
+}
+
+@media (max-width: 700px) {
+  .contacts-item__info {
+    position: absolute;
+    
+    display: flex;
+    left: 0px;   
   }
 }
